@@ -22,7 +22,7 @@ body {
 
 .wrapper {
     background-color: var(--white);
-    width: 300px;
+    width: 250px;
     text-align: center;
     padding: 10px;
     border-radius: 20px;
@@ -32,6 +32,10 @@ body {
 .wrapper img {
     width: 100%;
     border-radius: 20px;
+}
+
+.heading,.context{
+    padding: 0 10px
 }
 
 .heading {
