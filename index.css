@@ -1,39 +1,44 @@
 @import url('http://fonts.google.com/specimen/Outfit');
 
 :root {
-  --white: hsl(0, 0%, 100%);
-  --lightGray: hsl(212, 45%, 89%);
-  --grayishBlue: hsl(220, 15%, 55%);
-  --darkBlue: hsl(218, 44%, 22%);
-  font-family: 'Outfit';
+    --white: hsl(0, 0%, 100%);
+    --lightGray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+    font-family: 'Outfit';
+}
+
+html,
+body {
+    height: 100%;
 }
 
 body {
-  background-color: var(--lightGray);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-color: var(--lightGray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .wrapper {
-  background-color: var(--white);
-  width: 300px;
-  text-align: center;
-  padding: 10px;
-  border-radius: 20px;
-  box-shadow: 1px 1px 30px lightgray;
+    background-color: var(--white);
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px lightgray;
 }
 
 .wrapper img {
-  width: 100%;
-  border-radius: 20px;
+    width: 100%;
+    border-radius: 20px;
 }
 
 .heading {
-  color: var(--darkBlue);
+    color: var(--darkBlue);
 }
 
 .context {
-  font-size: 15px;
-  color: var(--grayishBlue);
+    font-size: 15px;
+    color: var(--grayishBlue);
 }
